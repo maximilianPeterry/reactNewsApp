@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Nav from './Components/Nav/nav'
+import Hero from './Components/Hero/hero'
+const newsApi = 'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=5966ca7879d14c3987a7104d14a0ed0f'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+
+  state = {
+    data: []
+  }
+
+  conponentDidMount() {
+    fetch(newsApi)
+      .then(data => {
+        console.log(data)
+        this.setState({ data: data })
+      })
+      .catch(err => {
+        console.log(err)
+      })
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <div id="header">
+          <Nav />
+          <Hero />
+        </div>
+
+      </div>
+    );
+  }
 }
 
 export default App;

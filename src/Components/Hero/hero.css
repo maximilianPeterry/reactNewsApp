@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+#herocontainer {
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+#tagline {
+    background-color: rgb(216, 176, 176);
+}
+
+#heroimg {
+    width: 100vw;
+}
+
+#slogan {
+    font-family: 'Bangers', cursive;
+    color: rgb(255, 255, 149)
+}
