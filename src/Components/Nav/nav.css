@@ -1,7 +1,9 @@
 #nav {
     width: 100vw;
     height: 75px;
-
+    display: flex;
+    justify-content: center;
+    background-color: white;
 }
 
 /* button {
