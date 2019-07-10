@@ -11,8 +11,9 @@ class App extends React.Component {
     data: []
   }
 
-  conponentDidMount() {
-    fetch(newsApi)
+  componentDidMount() {
+    fetch("https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=5966ca7879d14c3987a7104d14a0ed0f")
+      .then(res => res.json())
       .then(data => {
         console.log(data)
         this.setState({ data: data })
