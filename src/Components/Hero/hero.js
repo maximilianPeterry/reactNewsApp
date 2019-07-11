@@ -21,7 +21,9 @@ import './hero.css'
 
 const Hero = ({ data }) => {
     console.log(data)
+    
     return (
+        
         <div id='herocontainer'>
             <div id='tagline'>
                 <h1 id='slogan'>Your Morning Trump</h1>
@@ -34,11 +36,13 @@ const Hero = ({ data }) => {
             <div id='snatch'>
                 <h2>LOOK WHAT TRUMP DID TODAY</h2>
             </div>
-            {/* <div>
-                    {data.articles.map((title) => (
-                        <p>{data.title}</p>
+            { data ? 
+                <div>
+                    {data.map((item) => (
+                        <p>{item.title}</p>
                     ))}
-            </div> */}
+                </div> 
+                : null}
         </div>
     )
 }
