@@ -41,7 +41,12 @@ const Hero = ({ data }) => {
             { data ? 
                 <div>
                     {data.map((item) => (
-                        <p>{item.title}</p>
+                        <div>
+                            <img className="topNews" src={item.urlToImage}/>
+                            <h1>{item.title}</h1>
+                            <p>{item.description}</p>
+                            <a href={item.url}>Read More</a>
+                        </div>
                     ))}
                 </div> 
                 : null}
