@@ -19,6 +19,14 @@
 
 #slogan {
     font-family: 'Bangers', cursive;
+<<<<<<< HEAD
+    color: rgb(255, 255, 149)
+}
+
+#smallPosts{
+    display: flex;
+    flex-direction: row;
+=======
     color: rgb(255, 255, 149);
     margin-top: 0ch;
     /* animation: spin infinite 20s linear;
@@ -41,4 +49,5 @@
 
 .topNews {
     width: 100vw;
+>>>>>>> 6caf1f3cc4c182caf28093565ec65c282cabfa7a
 }
