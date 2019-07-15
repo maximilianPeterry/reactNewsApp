@@ -15,10 +15,35 @@
     font-family: 'Playfair Display', serif;
     color: rgb(204, 85, 0);
     font-size: 46px;
+    margin: 2vh;
 }
 
 #trumpClipart {
     width: 46px;
     height: 36.75px;
     margin-bottom: -4px;
+}
+
+@media screen and (min-width:500px) {
+    #slogan {
+        font-size: 66px;
+    }
+
+    #trumpClipart {
+        width: 66px;
+        height: 56.75px;
+        margin-bottom: -8.5px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    #slogan {
+        font-size: 96px;
+    }
+
+    #trumpClipart {
+        width: 96px;
+        height: 86.75px;
+        margin-bottom: -13.5px
+    }
 }

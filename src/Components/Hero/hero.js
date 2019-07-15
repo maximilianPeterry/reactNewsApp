@@ -1,6 +1,5 @@
 import React from 'react';
 import './hero.css'
-import Card from '../Card/card'
 
 
 const Hero = ({ data }) => {
@@ -14,12 +13,12 @@ const Hero = ({ data }) => {
         <div id='herocontainer'>
 
             {data ?
-                <div>
+                <div id="hello">
                     {articles.map((item) => (
 
                         <div id="articles">
 
-                            <img className="topNews" src={item.urlToImage} />
+                            <img className="topNews" src={item.urlToImage} alt="" />
                             <h1 id="headerTitle">{item.title}</h1>
                             <p id="headerDescription">{item.description}</p>
                             <a href={item.url}>Read More</a>
