@@ -1,11 +1,11 @@
 import React from 'react'
-// import ReactDOM from 'react-dom'
 import './small-cards.css'
 
 //passed the data down form app.js
- const SmallPost = ({ data }) =>{
+const SmallPost = ({ data }) => {
     const articles = data.slice(3, 20)
     console.log(articles)
+
 
         return (
          <div id="smallPosts">
@@ -27,16 +27,17 @@ import './small-cards.css'
                                     </a>
                                 </div>
                                 {/* <div>
+
                                     <p>{item.url}</p>
                                     </div> */}
                         </div>
                     ))}
-                </div> 
+                </div>
                 : null}
         </div>
-          
-        )
-                    }
-    
+
+    )
+}
+
 
 export default SmallPost;
