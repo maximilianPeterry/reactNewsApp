@@ -30,7 +30,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <div id="header">
+<<<<<<< HEAD
+          {/* <Card /> */}
+          <Nav />
+=======
           {/* <Nav /> */}
+>>>>>>> 8b17b5dbb06bd6c0d7c05d95f3c429d6e88a1907
           <Hero data={this.state.news} />
           {/* addded small posts card (has its own css file) */}
           <SmallPost id="smallPosts" data={this.state.news} />

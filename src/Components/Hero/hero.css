@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
 #herocontainer {
-    width: 100vw;
+    /* width: 100vw;
     background-color: rgba(169, 169, 169, 0.249);
     border: 10px;
-    border-color: red;
+    border-color: red; */
 }
 
 #tagline {
@@ -22,6 +22,14 @@
     font-family: 'Playfair Display', serif;
     color: rgb(204,85,0);
     font-size: 46px;
+}
+
+#articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2px;
 }
 
 #smallPosts{
@@ -47,7 +55,25 @@
     }
 }
 
+#articles{
+    border-bottom: rgba(229, 166, 78, 0.658);
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+#articles a {
+    color: rgb(216,126,36);
+    font-weight: bold;
+    margin: 5px;
+}
+
+#articles a:visited{
+    color: rgb(204,85,0); 
+}
 .topNews {
+<<<<<<< HEAD
+    width: 80vw;
+=======
     width: 100vw;
 }
 
@@ -55,4 +81,5 @@
     width: 46px;
     height: 36.75px;
     margin-bottom: -4px;
+>>>>>>> 8b17b5dbb06bd6c0d7c05d95f3c429d6e88a1907
 }
