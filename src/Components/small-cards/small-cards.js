@@ -11,18 +11,19 @@ import './small-cards.css'
          <div id="smallPosts">
          {/* going through the data, mapping through each item  */}
             { data ? 
-                <div>
+                <div className="smallArticles">
                     
                     {articles.map((item) => (
                         <div className='cardCont'>
-                            <div >
+                            
                             <a href={item.url}>
                                 <img className="images" src={item.urlToImage}/>
                                 </a>
-                            </div>
+                            
                                 <div id="cardTitle">
                                 <a href={item.url}>
-                                    <p id="title">{item.title}</p>
+                                    <h1 id="title">{item.title}</h1>
+                                    <p id="cardDescription">{item.description}</p>
                                     </a>
                                 </div>
                                 {/* <div>
