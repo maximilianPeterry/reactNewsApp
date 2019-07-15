@@ -1,0 +1,10 @@
+#cardcontainer {
+    display: flex;
+    flex-direction: column;
+    /* width: 50vw; */
+}
+
+/* #cardimage {
+    width: 70vw;
+    height: 70vh;
+} */

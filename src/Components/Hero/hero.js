@@ -1,5 +1,6 @@
 import React from 'react';
 import './hero.css'
+import Card from '../Card/card'
 
 // class TopCard extends React.Component{
 //     state = {
@@ -28,6 +29,7 @@ const Hero = ({ data }) => {
             <div id='tagline'>
                 <h1 id='slogan'>Your Morning Trump</h1>
             </div>
+
             <div id='dataimg'>
                 <img id='heroimg' src='https://www.veteranstoday.com/wp-content/uploads/2018/08/ScreenHunter-1147-1-696x547.jpg'
                     alt='' />
@@ -39,10 +41,16 @@ const Hero = ({ data }) => {
             { data ? 
                 <div>
                     {data.map((item) => (
-                        <p>{item.title}</p>
+                        <div>
+                            <img className="topNews" src={item.urlToImage}/>
+                            <h1>{item.title}</h1>
+                            <p>{item.description}</p>
+                            <a href={item.url}>Read More</a>
+                        </div>
                     ))}
                 </div> 
                 : null}
+
         </div>
     )
 }

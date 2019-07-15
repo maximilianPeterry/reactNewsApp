@@ -14,7 +14,7 @@ class App extends React.Component {
   }
   
   componentDidMount() {
-    fetch("https://newsapi.org/v2/everything?q=trump&apiKey=5966ca7879d14c3987a7104d14a0ed0f")
+    fetch("https://newsapi.org/v2/top-headlines?q=trump&apiKey=5966ca7879d14c3987a7104d14a0ed0f")
       .then(res => res.json())
       .then(data => {
         console.log(data.articles)
