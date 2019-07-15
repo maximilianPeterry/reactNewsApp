@@ -20,7 +20,7 @@ import './small-cards.css'
                                 <img className="images" src={item.urlToImage}/>
                                 </a>
                             </div>
-                                <div>
+                                <div id="cardTitle">
                                 <a href={item.url}>
                                     <p id="title">{item.title}</p>
                                     </a>
