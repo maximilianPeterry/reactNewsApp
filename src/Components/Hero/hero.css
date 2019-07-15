@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
 #herocontainer {
     width: 100vw;
@@ -18,8 +19,9 @@
 }
 
 #slogan {
-    font-family: 'Bangers', cursive;
-    color: rgb(255, 255, 149)
+    font-family: 'Playfair Display', serif;
+    color: rgb(204,85,0);
+    font-size: 46px;
 }
 
 #smallPosts{
@@ -47,4 +49,10 @@
 
 .topNews {
     width: 100vw;
+}
+
+#trumpClipart {
+    width: 46px;
+    height: 36.75px;
+    margin-bottom: -4px;
 }

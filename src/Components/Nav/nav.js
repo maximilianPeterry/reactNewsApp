@@ -7,7 +7,7 @@ class Nav extends React.Component {
         return (
             <div id='container'>
                 <nav id='nav'>
-                    <img id='Logo' src={Trumpdlogo} alt=''></img>
+                    {/* <img id='Logo' src={Trumpdlogo} alt=''></img> */}
 
 
                 </nav>
