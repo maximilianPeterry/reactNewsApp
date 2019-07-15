@@ -6,25 +6,28 @@ const SmallPost = ({ data }) => {
     const articles = data.slice(3, 20)
     console.log(articles)
 
-    return (
-        <div id="smallPosts">
-            {/* going through the data, mapping through each item  */}
-            {data ?
-                <div>
 
+        return (
+         <div id="smallPosts">
+         {/* going through the data, mapping through each item  */}
+            { data ? 
+                <div className="smallArticles">
+                    
                     {articles.map((item) => (
                         <div className='cardCont'>
-                            <div >
-                                <a href={item.url}>
-                                    <img className="images" src={item.urlToImage} alt="" />
+                            
+                            <a href={item.url}>
+                                <img className="images" src={item.urlToImage}/>
                                 </a>
-                            </div>
-                            <div id="cardTitle">
+                            
+                                <div id="cardTitle">
                                 <a href={item.url}>
-                                    <p id="title">{item.title}</p>
-                                </a>
-                            </div>
-                            {/* <div>
+                                    <h1 id="title">{item.title}</h1>
+                                    <p id="cardDescription">{item.description}</p>
+                                    </a>
+                                </div>
+                                {/* <div>
+
                                     <p>{item.url}</p>
                                     </div> */}
                         </div>
