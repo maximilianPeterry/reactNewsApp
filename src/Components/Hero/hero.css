@@ -17,3 +17,8 @@
     font-family: 'Bangers', cursive;
     color: rgb(255, 255, 149)
 }
+
+#smallPosts{
+    display: flex;
+    flex-direction: row;
+}
