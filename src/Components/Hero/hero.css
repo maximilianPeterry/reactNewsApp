@@ -71,9 +71,7 @@
     color: rgb(204,85,0); 
 }
 .topNews {
-<<<<<<< HEAD
     width: 80vw;
-=======
     width: 100vw;
 }
 
@@ -81,5 +79,4 @@
     width: 46px;
     height: 36.75px;
     margin-bottom: -4px;
->>>>>>> 8b17b5dbb06bd6c0d7c05d95f3c429d6e88a1907
 }
