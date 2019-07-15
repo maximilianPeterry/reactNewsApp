@@ -4,7 +4,7 @@ import './small-cards.css'
 
 //passed the data down form app.js
  const SmallPost = ({ data }) =>{
-    const articles = data.slice(3, 10)
+    const articles = data.slice(3, 20)
     console.log(articles)
 
         return (
