@@ -1,85 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
-#herocontainer {
-    /* width: 100vw;
-    background-color: rgba(169, 169, 169, 0.249);
-    border: 10px;
-    border-color: red; */
-}
-
-#tagline {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-}
-
 #heroimg {
     width: 100vw;
 }
 
-#slogan {
-    font-family: 'Playfair Display', serif;
-    color: rgb(204,85,0);
-    font-size: 46px;
-}
 
-#articles{
+#articles {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding: 2px;
 }
 
-#smallPosts{
+#smallPosts {
     display: flex;
     flex-direction: row;
     color: rgb(255, 255, 149);
     margin-top: 0ch;
-    /* animation: spin infinite 20s linear;
-    height: 40vmin;
-    pointer-events: none; */
 }
 
-#herocard {}
 
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-#articles{
+#articles {
     border-bottom: rgba(229, 166, 78, 0.658);
     border-bottom-width: 4px;
     border-bottom-style: solid;
 }
 
 #articles a {
-    color: rgb(216,126,36);
+    color: rgb(216, 126, 36);
     font-weight: bold;
     margin: 5px;
 }
 
-#articles a:visited{
-    color: rgb(204,85,0); 
+#articles a:visited {
+    color: rgb(204, 85, 0);
 }
+
 .topNews {
-<<<<<<< HEAD
     width: 80vw;
-=======
     width: 100vw;
 }
 
-#trumpClipart {
-    width: 46px;
-    height: 36.75px;
-    margin-bottom: -4px;
->>>>>>> 8b17b5dbb06bd6c0d7c05d95f3c429d6e88a1907
-}
+
+@media screen and (min-width:500px) {}

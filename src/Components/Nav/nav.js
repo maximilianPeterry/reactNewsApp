@@ -7,17 +7,10 @@ class Nav extends React.Component {
         return (
             <div id='container'>
                 <nav id='nav'>
-                    {/* <img id='Logo' src={Trumpdlogo} alt=''></img> */}
-
-
+                    <div id='tagline'>
+                        <h1 id='slogan'>Daily<img id="trumpClipart" src="https://www.trzcacak.rs/myfile/detail/5-50786_angry-trump-clipart-donald-trump-face-clipart.png"></img>Trump</h1>
+                    </div>
                 </nav>
-                {/* <div classname='newdiv'>
-                    <button>
-                        <div id='bar1' className='bars'></div>
-                        <div id='bar2' className='bars'></div>
-                        <div id='bar3' className='bars'></div>
-                    </button>
-                </div> */}
             </div>
         )
     }
