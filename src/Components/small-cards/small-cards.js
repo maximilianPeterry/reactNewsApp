@@ -4,7 +4,8 @@ import './small-cards.css'
 
 //passed the data down form app.js
  const SmallPost = ({ data }) =>{
-     console.log(data)
+    const articles = data.slice(3, 10)
+    console.log(articles)
 
         return (
          <div id="smallPosts">
@@ -12,7 +13,7 @@ import './small-cards.css'
             { data ? 
                 <div>
                     
-                    {data.map((item) => (
+                    {articles.map((item) => (
                         <div className='cardCont'>
                             <div >
                             <a href={item.url}>

@@ -20,8 +20,13 @@ import Card from '../Card/card'
 //       })
 //   }
 
+
+
 const Hero = ({ data }) => {
-    console.log(data)
+
+   const articles = data.slice(0, 3)
+        console.log(articles)
+    
     
     return (
         
@@ -40,8 +45,10 @@ const Hero = ({ data }) => {
             </div>
             { data ? 
                 <div>
-                    {data.map((item) => (
+                    {articles.map((item) => (
+                        
                         <div>
+                            
                             <img className="topNews" src={item.urlToImage}/>
                             <h1>{item.title}</h1>
                             <p>{item.description}</p>
@@ -53,6 +60,7 @@ const Hero = ({ data }) => {
 
         </div>
     )
+    
 }
 
 
