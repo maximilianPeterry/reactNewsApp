@@ -42,7 +42,9 @@
     width: 100vw;
 }
 
-
+#topNewsText {
+    padding: 2vw;
+}
 
 @media screen and (min-width:500px) {}
 
