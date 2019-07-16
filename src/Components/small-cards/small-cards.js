@@ -1,42 +1,40 @@
 import React from 'react'
-// import ReactDOM from 'react-dom'
 import './small-cards.css'
 
 //passed the data down form app.js
- const SmallPost = ({ data }) =>{
+const SmallPost = ({ data }) => {
     const articles = data.slice(3, 20)
     console.log(articles)
 
-        return (
-         <div id="smallPosts">
-         {/* going through the data, mapping through each item  */}
-            { data ? 
-                <div className="smallArticles">
-                    
+    return (
+        <div id="smallPosts">
+            {/* going through the data, mapping through each item  */}
+            {data ?
+                <div id='card'>
+
                     {articles.map((item) => (
                         <div className='cardCont'>
-                            
-                            <a href={item.url}>
-                                <img className="images" src={item.urlToImage}/>
-                                </a>
-                            
-                                <div id="cardTitle">
+                            <div >
                                 <a href={item.url}>
-                                    <h1 id="title">{item.title}</h1>
-                                    <p id="cardDescription">{item.description}</p>
-                                    </a>
-                                </div>
-                                {/* <div>
+                                    <img className="images" src={item.urlToImage} alt="" />
+                                </a>
+                            </div>
+                            <div id="cardTitle">
+                                <a className="url" href={item.url}>
+                                    <p id="title">{item.title}</p>
+                                </a>
+                            </div>
+                            {/* <div>
                                     <p>{item.url}</p>
                                     </div> */}
                         </div>
                     ))}
-                </div> 
+                </div>
                 : null}
         </div>
-          
-        )
-                    }
-    
+
+    )
+}
+
 
 export default SmallPost;

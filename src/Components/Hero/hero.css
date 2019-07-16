@@ -41,8 +41,57 @@
     width: 80vw;
     width: 100vw;
 }
+/* added this media query to change the size of the images at the top 
+but doesnt work */
+@media screen and (min-width:1400px){
+    #hello {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .topNews {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    #headerTitle {
+        /* margin: auto; */
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+
+    #headerDescription {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+}
 
 
+@media screen and (min-width:1050px) {
+    #hello {
+        display: flex;
+        flex-direction: row;
+    }
 
-@media screen and (min-width:500px) {}
+    .topNews {
+        width: 33vw;
+        height: 20vh;
+    }
 
+    #headerTitle {
+        /* margin: auto; */
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+
+    #headerDescription {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+}

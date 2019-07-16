@@ -1,54 +1,65 @@
 
 /* borders not needed, just for css */
+/* body {
+    overflow: hidden;
+} */
 @media screen and (min-width: 768px) {
     .smallPosts{
         display: flex;
-        width: auto;
-    }
-.smallArticles{
-    display: flex;
-    width: auto;
-    flex-wrap: wrap;
-    flex-direction: row;
-    
-}
- .cardCont{
-     flex-direction: column;
-     align-items: center;
-     width: 45%;
-     
- }
-
-    #cardDescription{
-        display: block;
-    }
-  
-}
-@media screen and (max-width: 767px) {
-    #cardDescription{
-    display: none;
-    }
-
-    /* .smallArticles{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: 100%;
-    }
-    .cardCont{
         flex-direction: column;
+        height: 100%;
+        width: 100vw;
+        
+    }
+
+    .cardCont{
+        padding: 5px;
+/*         
+        border-right-color: rgba(229, 166, 78, 0.658);
+        border-right-style: solid;
+        border-right-width: 2px; */
+
+        outline-offset: 10px;
+        
+    }
+    #card{
+        display: flex;
         width: 100%;
-        align-content: center;
+        height: 50vw;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+
+        padding:5px;
+        
+    }
+   .images{
+       height: 15vh;
+       width: auto;
+   }
+
+    #cardTitle{
+        content: "";
         display: inline-block;
-    } */
-}
-
-
-
-.images {
-    width: 50vw;
+        width: 100%;
+    }
+.url{
+    display: flex;
+    width: 100%;
     height: auto;
 }
+
+
+#title{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
 
 #cardTitle{
     margin: 1px;
@@ -63,30 +74,80 @@
 #title{
     
 }
-/* .cardCont {
+}
+@media screen and (max-width: 767px) {
+    .smallPosts{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100vw;
+        
+    }
+
+    .cardCont{
+        padding: 5px;
+        
+        border-bottom-color: rgba(229, 166, 78, 0.658);
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        display: flex;
+        outline-offset: 10px;
+        
+    }
+    #card{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* overflow: scroll; */
+
+        padding:5px;
+        
+    }
+   .images{
+       height: auto;
+       width: 40vw;
+   }
+
+    #cardTitle{
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+.url{
     display: flex;
-    align-items: flex-start;
+    width: 100%;
+    height: auto;
+}
 
 
-    width: auto;
+#title{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+    padding: 5px;
+}
 
 
-    background-color: rgb(255,234,174);
-    margin: 5px;
-    margin-right: 0;
 
-  
+#cardTitle{
+    margin: 1px;
+    font-size: 1vh;
+    height: auto;  
+    /* display: flex; */
 
-
-    border-bottom: rgb(255, 219, 120);
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
+}
+#cardDescription{
+    /* align-items: flex-end; */
+}
+#title{
     
-    
-} */
+}
+}
 
-
-/* card links color before and visited below */
 .cardCont a {
 color: rgb(216,126,36);
 font-weight: bold;
@@ -102,16 +163,6 @@ margin: 5px;
 
 #smallPosts{  
 
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap; */
-    
-
-
-
-    /* border-width: 10px;
-    border-color: red;
-    border-style: solid; */
 }
 
 
