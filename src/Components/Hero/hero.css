@@ -41,10 +41,63 @@
     width: 80vw;
     width: 100vw;
 }
+/* added this media query to change the size of the images at the top 
+but doesnt work */
+@media screen and (min-width:1400px){
+    #hello {
+        display: flex;
+        flex-direction: row;
+    }
 
+<<<<<<< HEAD
+    .topNews {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    #headerTitle {
+        /* margin: auto; */
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+
+    #headerDescription {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+=======
 #topNewsText {
     padding: 2vw;
 }
+>>>>>>> b6e0c06aa4480048985bbf023bfab552a349505b
 
-@media screen and (min-width:500px) {}
+@media screen and (min-width:1050px) {
+    #hello {
+        display: flex;
+        flex-direction: row;
+    }
 
+    .topNews {
+        width: 33vw;
+        height: 20vh;
+    }
+
+    #headerTitle {
+        /* margin: auto; */
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+
+    #headerDescription {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+}

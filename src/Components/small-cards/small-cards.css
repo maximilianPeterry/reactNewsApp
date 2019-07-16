@@ -1,34 +1,153 @@
 
 /* borders not needed, just for css */
-.images {
-    width: 40vw;
+/* body {
+    overflow: hidden;
+} */
+@media screen and (min-width: 768px) {
+    .smallPosts{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100vw;
+        
+    }
+
+    .cardCont{
+        padding: 5px;
+/*         
+        border-right-color: rgba(229, 166, 78, 0.658);
+        border-right-style: solid;
+        border-right-width: 2px; */
+
+        outline-offset: 10px;
+        
+    }
+    #card{
+        display: flex;
+        width: 100%;
+        height: 50vw;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+
+        padding:5px;
+        
+    }
+   .images{
+       height: 15vh;
+       width: auto;
+   }
+
+    #cardTitle{
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+.url{
+    display: flex;
+    width: 100%;
     height: auto;
-
-
 }
+
+
+#title{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
 
 #cardTitle{
-  
-
-    
-    margin: 10px;
-    font-size: 13px;
+    margin: 1px;
+    font-size: 1vh;
+    height: auto;  
+    /* display: flex; */
 
 }
-.cardCont {
+#cardDescription{
+    /* align-items: flex-end; */
+}
+#title{
+    
+}
+}
+@media screen and (max-width: 767px) {
+    .smallPosts{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100vw;
+        
+    }
+
+    .cardCont{
+        padding: 5px;
+        
+        border-bottom-color: rgba(229, 166, 78, 0.658);
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        display: flex;
+        outline-offset: 10px;
+        
+    }
+    #card{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* overflow: scroll; */
+
+        padding:5px;
+        
+    }
+   .images{
+       height: auto;
+       width: 40vw;
+   }
+
+    #cardTitle{
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+.url{
     display: flex;
-    align-items: center;
-    background-color: rgb(255,234,174);
-    margin: 5px;
-
-    border-bottom: rgb(255, 219, 120);
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    
+    width: 100%;
+    height: auto;
 }
 
 
-/* card links color before and visited below */
+#title{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+
+#cardTitle{
+    margin: 1px;
+    font-size: 1vh;
+    height: auto;  
+    /* display: flex; */
+
+}
+#cardDescription{
+    /* align-items: flex-end; */
+}
+#title{
+    
+}
+}
+
 .cardCont a {
 color: rgb(216,126,36);
 font-weight: bold;
@@ -43,10 +162,7 @@ margin: 5px;
     }
 
 #smallPosts{  
-   
-    
-    width: auto;
 
-    display: flex;
-    
 }
+
+
