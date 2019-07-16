@@ -49,7 +49,6 @@ but doesnt work */
         flex-direction: row;
     }
 
-<<<<<<< HEAD
     .topNews {
         width: 100vw;
         height: 60vh;
@@ -70,11 +69,9 @@ but doesnt work */
     }
 }
 
-=======
 #topNewsText {
     padding: 2vw;
 }
->>>>>>> b6e0c06aa4480048985bbf023bfab552a349505b
 
 @media screen and (min-width:1050px) {
     #hello {
