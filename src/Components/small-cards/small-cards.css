@@ -6,7 +6,8 @@
 @media screen and (min-width: 768px) {
     .smallPosts{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+
         height: 100%;
         width: 100vw;
         
@@ -20,14 +21,14 @@
         border-right-width: 2px; */
 
         outline-offset: 10px;
-        
+       
     }
     #card{
         display: flex;
         width: 100%;
         height: 50vw;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         overflow-x: scroll;
 
         padding:5px;
