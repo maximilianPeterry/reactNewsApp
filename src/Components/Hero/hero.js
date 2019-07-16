@@ -18,9 +18,11 @@ const Hero = ({ data }) => {
 
                         <div id="articles">
 
-                            <img className="topNews" src={item.urlToImage} alt="" />
+                            <img className="topNews" src={item.urlToImage} />
+                            <div id="topNewsText">
                             <h1 id="headerTitle">{item.title}</h1>
                             <p id="headerDescription">{item.description}</p>
+                            </div>
                             <a href={item.url}>Read More</a>
                         </div>
                     ))}
