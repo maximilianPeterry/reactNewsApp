@@ -40,8 +40,8 @@
         
     }
    .images{
-       height: 15vh;
-       width: auto;
+       height: 10vh;
+       width: 20vw;
    }
 
     #cardTitle{
@@ -59,8 +59,8 @@
 #title{
     content: "";
     display: inline-block;
-    width: 100%;
-    margin: auto;
+    /* width: 100%; */
+    /* padding-right: 5vw; */
     font-size: 20px;
     padding: 5px;
 }
@@ -77,9 +77,7 @@
 #cardDescription{
     /* align-items: flex-end; */
 }
-#title{
-    
-}
+
 }
 @media screen and (max-width: 767px) {
     .smallPosts{
@@ -131,7 +129,7 @@
 #title{
     content: "";
     display: inline-block;
-    width: 100%;
+    width: 90%;
     margin: auto;
     font-size: 15px;
     padding: 5px;
@@ -149,9 +147,7 @@
 #cardDescription{
     /* align-items: flex-end; */
 }
-#title{
-    
-}
+
 }
 
 .cardCont a {
@@ -172,3 +168,9 @@ margin: 5px;
 }
 
 
+@media screen and (min-width: 1180px) {
+    .images{
+        height: 15vh;
+        width: 15vw;
+    }
+}

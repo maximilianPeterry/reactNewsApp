@@ -81,11 +81,11 @@ but doesnt work */
 
     .topNews {
         width: 33vw;
-        height: 20vh;
+        height: 28vh;
     }
 
     #headerTitle {
-        /* margin: auto; */
+        margin: auto;
         content: "";
         display: inline-block;
         width: 100%;
