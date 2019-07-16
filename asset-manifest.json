@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reactNewsApp/static/css/main.2ee49557.chunk.css",
-    "main.js": "/reactNewsApp/static/js/main.d308bdd4.chunk.js",
-    "main.js.map": "/reactNewsApp/static/js/main.d308bdd4.chunk.js.map",
-    "runtime~main.js": "/reactNewsApp/static/js/runtime~main.5e56cdd6.js",
-    "runtime~main.js.map": "/reactNewsApp/static/js/runtime~main.5e56cdd6.js.map",
-    "static/js/2.d6a534e5.chunk.js": "/reactNewsApp/static/js/2.d6a534e5.chunk.js",
-    "static/js/2.d6a534e5.chunk.js.map": "/reactNewsApp/static/js/2.d6a534e5.chunk.js.map",
-    "index.html": "/reactNewsApp/index.html",
-    "precache-manifest.52e0e5a3ae16bf285a2e3e24940c40d3.js": "/reactNewsApp/precache-manifest.52e0e5a3ae16bf285a2e3e24940c40d3.js",
-    "service-worker.js": "/reactNewsApp/service-worker.js",
-    "static/css/main.2ee49557.chunk.css.map": "/reactNewsApp/static/css/main.2ee49557.chunk.css.map"
+    "main.css": "/daily-trump/static/css/main.2ee49557.chunk.css",
+    "main.js": "/daily-trump/static/js/main.29f95175.chunk.js",
+    "main.js.map": "/daily-trump/static/js/main.29f95175.chunk.js.map",
+    "runtime~main.js": "/daily-trump/static/js/runtime~main.ef57d503.js",
+    "runtime~main.js.map": "/daily-trump/static/js/runtime~main.ef57d503.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/daily-trump/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/daily-trump/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/daily-trump/index.html",
+    "precache-manifest.cbbe4ddbc3476eed363d92661c756b44.js": "/daily-trump/precache-manifest.cbbe4ddbc3476eed363d92661c756b44.js",
+    "service-worker.js": "/daily-trump/service-worker.js",
+    "static/css/main.2ee49557.chunk.css.map": "/daily-trump/static/css/main.2ee49557.chunk.css.map"
   }
 }
