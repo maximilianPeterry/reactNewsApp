@@ -2,7 +2,7 @@
   background-color: rgb(255,234,174);
   /* height: 100vh; */
 
- 
+ overflow: hidden;
 }
 
 #header{
