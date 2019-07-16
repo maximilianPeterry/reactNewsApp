@@ -1,6 +1,5 @@
 import React from 'react';
 import './hero.css'
-import Card from '../Card/card'
 
 
 const Hero = ({ data }) => {
@@ -14,7 +13,7 @@ const Hero = ({ data }) => {
         <div id='herocontainer'>
 
             {data ?
-                <div>
+                <div id="hello">
                     {articles.map((item) => (
 
                         <div id="articles">

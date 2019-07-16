@@ -46,5 +46,28 @@
     padding: 2vw;
 }
 
-@media screen and (min-width:500px) {}
+@media screen and (min-width:1050px) {
+    #hello {
+        display: flex;
+        flex-direction: row;
+    }
 
+    .topNews {
+        width: 33vw;
+        height: 20vh
+    }
+
+    #headerTitle {
+        /* margin: auto; */
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+
+    #headerDescription {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+}
