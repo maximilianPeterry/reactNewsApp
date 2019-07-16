@@ -23,7 +23,6 @@ const SmallPost = ({ data }) => {
                                 <div id="cardTitle">
                                 <a href={item.url}>
                                     <h1 id="title">{item.title}</h1>
-                                    <p id="cardDescription">{item.description}</p>
                                     </a>
                                 </div>
                                 {/* <div>
